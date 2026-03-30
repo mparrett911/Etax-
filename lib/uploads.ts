@@ -1,4 +1,4 @@
-import { User } from "@/prisma/client"
+import { User } from "@prisma/client"
 import { mkdir } from "fs/promises"
 import path from "path"
 import sharp from "sharp"

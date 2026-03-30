@@ -1,5 +1,5 @@
 import { SettingsMap } from "@/models/settings"
-import { User } from "@/prisma/client"
+import { User } from "@prisma/client"
 import { addDays, format } from "date-fns"
 import { InvoiceFormData } from "./components/invoice-page"
 

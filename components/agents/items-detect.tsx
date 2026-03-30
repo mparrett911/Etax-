@@ -6,7 +6,7 @@ import { splitFileIntoItemsAction } from "@/app/(app)/unsorted/actions"
 import { useNotification } from "@/app/(app)/context"
 import { useState } from "react"
 import { Loader2 } from "lucide-react"
-import { File } from "@/prisma/client"
+import { File } from "@prisma/client"
 
 export const ItemsDetectTool = ({ file, data }: { file?: File; data: TransactionData }) => {
   const { showNotification } = useNotification()

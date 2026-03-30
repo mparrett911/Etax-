@@ -1,5 +1,5 @@
 import { prisma } from "@/lib/db"
-import { Prisma } from "@/prisma/client"
+import { Prisma } from "@prisma/client"
 import { cache } from "react"
 import { isDatabaseEmpty } from "./defaults"
 import { createUserDefaults } from "./defaults"

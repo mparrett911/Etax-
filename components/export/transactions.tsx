@@ -17,7 +17,7 @@ import { Separator } from "@/components/ui/separator"
 import { useDownload } from "@/hooks/use-download"
 import { useProgress } from "@/hooks/use-progress"
 import { useTransactionFilters } from "@/hooks/use-transaction-filters"
-import { Category, Field, Project } from "@/prisma/client"
+import { Category, Field, Project } from "@prisma/client"
 import { formatDate } from "date-fns"
 import { useState } from "react"
 

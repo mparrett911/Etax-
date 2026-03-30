@@ -10,7 +10,7 @@ import {
 import { getAppData, setAppData } from "@/models/apps"
 import { createFile } from "@/models/files"
 import { createTransaction, updateTransactionFiles } from "@/models/transactions"
-import { Transaction, User } from "@/prisma/client"
+import { Transaction, User } from "@prisma/client"
 import { renderToBuffer } from "@react-pdf/renderer"
 import { randomUUID } from "crypto"
 import { mkdir, writeFile } from "fs/promises"

@@ -2,7 +2,7 @@ import { FormSelectCurrency } from "@/components/forms/select-currency"
 import { FormAvatar, FormInput, FormTextarea } from "@/components/forms/simple"
 import { Button } from "@/components/ui/button"
 import { formatCurrency } from "@/lib/utils"
-import { Currency } from "@/prisma/client"
+import { Currency } from "@prisma/client"
 import { X } from "lucide-react"
 import { InputHTMLAttributes, memo, useCallback, useMemo } from "react"
 

@@ -1,4 +1,4 @@
-import { Field, Transaction } from "@/prisma/client"
+import { Field, Transaction } from "@prisma/client"
 
 export function calcTotalPerCurrency(transactions: Transaction[]): Record<string, number> {
   return transactions.reduce(

@@ -4,7 +4,7 @@ import { saveProfileAction } from "@/app/(app)/settings/actions"
 import { FormError } from "@/components/forms/error"
 import { FormAvatar, FormInput, FormTextarea } from "@/components/forms/simple"
 import { Button } from "@/components/ui/button"
-import { User } from "@/prisma/client"
+import { User } from "@prisma/client"
 import { CircleCheckBig } from "lucide-react"
 import { useActionState } from "react"
 
