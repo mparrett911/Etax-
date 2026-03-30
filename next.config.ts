@@ -13,6 +13,10 @@ const nextConfig: NextConfig = {
       bodySizeLimit: "256mb",
     },
   },
+  webpack: (config) => {
+    config.parallelism = 1
+    return config
+  },
 }
 
 const isSentryEnabled = process.env.NEXT_PUBLIC_SENTRY_DSN && process.env.SENTRY_ORG && process.env.SENTRY_PROJECT
